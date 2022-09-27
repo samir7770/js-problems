@@ -30,18 +30,34 @@
 // "aA11" -> 2 # 'a' and '1'
 // "ABBA" -> 2 # 'A' and 'B' each occur twice
 
-spell = (str) => {
-  let count = 0;
-  let newArr = [];
-  let strLow = str.toLowerCase();
-  for (let i = 0; i < strLow.length; i++) {
-    for (let j = i + 1; j < strLow.length; j++) {
-      if (strLow[i] == strLow[j] && !newArr.includes(strLow[i])) {
-        newArr.push(strLow[i]);
-      }
-    }
-  }
-  return newArr.length;
-};
+// spell = (str) => {
+//   let count = 0;
+//   let newArr = [];
+//   let strLow = str.toLowerCase();
+//   for (let i = 0; i < strLow.length; i++) {
+//     for (let j = i + 1; j < strLow.length; j++) {
+//       if (strLow[i] == strLow[j] && !newArr.includes(strLow[i])) {
+//         newArr.push(strLow[i]);
+//       }
+//     }
+//   }
+//   return newArr.length;
+// };
 
-console.log(spell("aaaaabccccccdee"));
+// console.log(spell("aaaaabccccccdee"));
+
+function isIsogram(str) {
+  var ismo = [];
+  str = str.toLowerCase();
+  for (var i = 0; i < str.length; i++) {
+    if (ismo[str[i]]) {
+      console.log(ismo);
+      return false;
+    }
+    ismo[str[i]] = true;
+  }
+  console.log(ismo);
+  return true;
+}
+
+console.log(isIsogram(""));
