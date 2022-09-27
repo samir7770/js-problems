@@ -61,3 +61,24 @@ function isIsogram(str) {
 }
 
 console.log(isIsogram(""));
+
+// =============================
+
+function isIsogram(str) {
+  let ismo = [];
+  let number = 0;
+  str = str.toLowerCase();
+  for (let i = 0; i < str.length; i++) {
+    if (!ismo[str[i]]) {
+      ismo[str[i]] = 1;
+    } else if (ismo[str[i]] < 2) {
+      ismo[str[i]] += 1;
+      number++;
+    }
+  }
+  return number;
+}
+
+console.log(isIsogram("Dermatoglyphics"));
+console.log(isIsogram("ababa"));
+console.log(isIsogram("moOse"));
