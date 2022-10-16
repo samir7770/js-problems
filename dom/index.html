@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <main id="main-section">
+      <section>
+        <h1 class="section-title">This is Comment Section</h1>
+        <input id="input-field" type="text" />
+        <button id="submit">Submit</button>
+      </section>
+      <section>
+        <h1 class="section-title">This is Red Section</h1>
+        <ul class="items">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <button
+            id="btn-red"
+            onclick="document.querySelector('#main-section').style.backgroundColor = 'red'"
+          >
+            Make Red
+          </button>
+        </ul>
+      </section>
+      <section>
+        <h1 class="section-title">This is Yellow Section</h1>
+        <ul class="items">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <button id="btn-yellow" onclick="makeYellow()">Make Yellow</button>
+        </ul>
+      </section>
+      <section>
+        <h1 class="section-title">This is Green Section</h1>
+        <ul class="items">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item test</li>
+          <button id="btn-green">Make Green</button>
+        </ul>
+      </section>
+      <section>
+        <h1 class="section-title">This is Purple Section</h1>
+        <ul class="items">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item test</li>
+          <button id="btn-purple">Make Purple</button>
+        </ul>
+      </section>
+    </main>
+    <!-- Scripting Start -->
+    <script src="js/app.js"></script>
+    <script></script>
+  </body>
+</html>

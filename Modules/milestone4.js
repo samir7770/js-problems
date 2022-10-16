@@ -77,4 +77,4 @@ function publicBusFare(pessenger) {
   }
 }
 
-// console.log(publicBusFare(63));
+console.log(publicBusFare(61));
