@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        width: 600px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body onclick="console.log('body clicked')">
+    <section id="content-section">
+      <h1 id="section-title">Delete My Paragraph !!</h1>
+      <p id="delete-content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae fuga
+        ratione esse debitis autem doloremque quis explicabo reprehenderit
+        tenetur accusamus?
+      </p>
+    </section>
+    <section id="delete-section">
+      <h3>For deleting please type 'Delete'</h3>
+      <input id="deleteValidation" type="text" />
+      <button id="deleteBtn" disabled>Delete</button>
+    </section>
+    <section onclick="console.log('section clicked')" id="test-section">
+      <ul onclick="console.log('ul clicked')" id="list-container">
+        <li>A</li>
+        <li>b</li>
+        <li>v</li>
+        <li>r</li>
+        <li>s</li>
+        <button id="newItem" onclick="addNewLI()">Add New</button>
+      </ul>
+    </section>
+    <script src="js/gitDelete.js"></script>
+    <script>
+      const addNewLI = () => {
+        const li = document.createElement("li");
+        li.innerText = "New item";
+        document.getElementById("list-container").appendChild(li);
+        console.log(document.getElementById("list-container"));
+      };
+    </script>
+  </body>
+</html>

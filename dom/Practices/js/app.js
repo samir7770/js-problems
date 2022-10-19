@@ -45,3 +45,11 @@ purple.addEventListener("click", makePurple);
 function makePurple() {
   document.querySelector("#main-section").style.backgroundColor = "purple";
 }
+
+const submitBtn = document.getElementById("submit");
+submitBtn.addEventListener("click", function () {
+  const inputText = document.getElementById("input-field");
+  const submitText = document.getElementById("submittedText");
+  submitText.innerText = inputText.value;
+  inputText.value = "";
+});
