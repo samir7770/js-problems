@@ -1,0 +1,221 @@
+@media screen and (min-width: 992px) {
+  .st-header-9.stt-menu-transparent header.header {
+    background: transparent;
+    top: 0;
+  }
+}
+@media (min-width: 992px) {
+  .d-lg-block {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .header {
+    border-bottom: 1px solid var(--light-grey-color, #eaeef3);
+    background: purple;
+  }
+}
+
+.button-search-wrapper .btn-search {
+  background: #b48cd2 !important;
+}
+.button-search-wrapper .btn-search:hover {
+  filter: none !important;
+  background: #d2b9e6 !important;
+}
+
+.st-header-9 .st-service-header2 .st-heading {
+  color: #b48cd2;
+}
+.single #st-content-wrapper.st-style-4 .st-section-single .st-heading-section {
+  color: #b48cd2;
+}
+body.st-header-9 #st-content-wrapper.st-style-elementor .st-heading-section {
+  color: #b48cd2;
+}
+body.st-header-9 .st-style-elementor h2 {
+  color: #b48cd2;
+}
+#st-login-form .modal-dialog .modal-body .login-form-wrapper .heading,
+#st-login-form-page .modal-dialog .modal-body .login-form-wrapper .heading {
+  color: #b48cd2;
+}
+.single-post .blog-style3 .article-style3 #comment-wrapper h2 {
+  display: none;
+}
+.blog-style3 .st-blog .sidebar-widget .wp-block-search label,
+.blog-style3 .st-blog .sidebar-widget h4 {
+  font-family: "Skranji", Sans-serif !important;
+  font-weight: 400 !important;
+}
+.article-style3 .post-inner .post-title a {
+  font-family: "Skranji", Sans-serif !important;
+  font-weight: 400 !important;
+}
+h1,
+h2,
+h5,
+h6 {
+  font-family: "Skranji", Sans-serif !important;
+  font-weight: 400 !important;
+}
+h4,
+p,
+div,
+a,
+span,
+input,
+label,
+select,
+button,
+#st-content-wrapper .st-link {
+  font-family: "Mukta", sans-serif!imporatnt;
+}
+
+.elementor-icon {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0 auto !important;
+}
+
+.faq.style1 .accordion-button::after {
+  background: #b48cd2 !important;
+}
+
+.faq.style1 .accordion-button.collapsed::after {
+  color: #ffffff !important;
+}
+
+.blog-style3
+  .st-blog
+  .sidebar-widget
+  .wp-block-search__inside-wrapper
+  .wp-block-search__button {
+  background: #b48cd2 !important;
+}
+.elementor-widget-wp-widget-gtranslate a {
+  color: #09366d !important;
+  padding-right: 10px;
+}
+
+/*logo responsive fix*/
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .header__left .logo img {
+    width: 80px;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  #footerMain .elementor-element .elementor-element-38f8916 {
+    padding: 0px !important;
+  }
+  .header__left .logo img {
+    width: 80px;
+  }
+}
+.customFooter h2 a {
+  text-align: center !important;
+}
+@media (max-width: 575.98px) {
+  .customFooterSpace {
+    padding: 30px 0 5px !important;
+  }
+  #customFooter {
+    text-align: center;
+  }
+  .elementor-widget-container {
+    margin: 0 !important;
+  }
+  /*car filter close button*/
+  .close-sidebar {
+    display: block !important;
+    text-align: right;
+    font-size: 25px;
+    padding: 12px 4px 12px 0;
+  }
+}
+@media (max-width: 767px) {
+  .st-header-9 #st-content-wrapper {
+    padding-bottom: 0px !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #customLottie-01 {
+    margin-bottom: -25px !important;
+  }
+  #customLottie-02 {
+    margin-bottom: -60px !important;
+  }
+  #st-content-wrapper.st-style-elementor .st-bg-feature .st-banner-search-form {
+    text-align: center;
+  }
+}
+
+/* single blog post button css */
+.submit {
+  background: #b48cd2;
+  font-family: "Mukta", sans-serif!imporatnt;
+}
+.submit:hover {
+  background: #d2b9e6;
+}
+
+.single-post
+  .blog-style3
+  .article-style3
+  #comment-wrapper
+  #respond
+  .form-submit
+  .submit {
+  background: #b48cd2;
+  font-family: "Mukta", sans-serif!imporatnt;
+}
+
+.single-post
+  .blog-style3
+  .article-style3
+  #comment-wrapper
+  #respond
+  .form-submit
+  .submit:hover {
+  background: #d2b9e6;
+}
+
+@media (max-width: 575.98px) {
+  .blog-style3 .st-blog .sidebar-right {
+    padding-bottom: 50px;
+  }
+}
+
+#st-content-wrapper.st-style-elementor .st-bg-feature {
+  background-position: center;
+}
+
+#gotop {
+  background: #b48cd2 !important;
+  border-radius: 50% !important;
+}
+#gotop:hover {
+  background: #d2b9e6 !important;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #gotop {
+    background: red!important !important;
+    border-radius: 50% !important;
+  }
+  #gotop:hover {
+    background: #d2b9e6 !important;
+  }
+}
+
+h2,
+h1,
+h3 {
+  background: red !important;
+}

@@ -4,6 +4,6 @@ document.getElementById("submit-btn").addEventListener("click", function () {
   if (emailValue === "samir@gmail.com" && passwordValue === "samir") {
     window.location.href = "bank.html";
   } else {
-    console.log("Invalid User");
+    alert("Invalid User");
   }
 });

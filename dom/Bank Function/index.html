@@ -13,7 +13,7 @@
       crossorigin="anonymous"
     />
 
-    <title>Bap er bank</title>
+    <title>Functional Bap er bank</title>
   </head>
   <body>
     <section id="main" class="w-50 mt-5 m-auto">
@@ -23,14 +23,17 @@
     </section>
     <div id="bank-balance" class="w-50 mt-5 m-auto">
       <div class="row">
+        <!-- Deposit Box -->
         <div class="col bg-warning p-5 rounded m-1">
           <h2 class="text-light">Deposit</h2>
           <h1 class="text-light">$<span id="depositBox">00</span></h1>
         </div>
+        <!-- Withdraw Box -->
         <div class="col bg-primary p-5 rounded m-1">
           <h2 class="text-light">Withdraw</h2>
           <h1 class="text-light">$<span id="withdrawBox">00</span></h1>
         </div>
+        <!-- Balance Box -->
         <div class="col bg-danger p-5 rounded m-1">
           <h2 class="text-light">Balance</h2>
           <h1 class="text-light">$<span id="balance">700</span></h1>
@@ -41,27 +44,35 @@
       <div class="row">
         <div class="col bg-info p-5 rounded m-1">
           <h2 class="text-light">Deposit</h2>
-          <input
-            type="text"
-            name=""
-            class="d-block px-3 mt-3 py-2 w-100 rounded"
-            id="deposit"
-            placeholder="Deposit Amount"
-          />
-          <button class="btn btn-danger mt-3" id="deposit-btn">Deposit</button>
+          <!-- Deposit Input -->
+          <form action="">
+            <input
+              type="text"
+              name=""
+              class="d-block px-3 mt-3 py-2 w-100 rounded"
+              id="deposit"
+              placeholder="Deposit Amount"
+            />
+            <button class="btn btn-danger mt-3" id="deposit-btn">
+              Deposit
+            </button>
+          </form>
         </div>
         <div class="col bg-success p-5 rounded m-1">
           <h2 class="text-light">Withdraw</h2>
-          <input
-            type="text"
-            name=""
-            class="d-block px-3 mt-3 py-2 w-100 rounded"
-            id="withdraw"
-            placeholder="Withdraw Amount"
-          />
-          <button class="btn btn-danger mt-3" id="withdraw-btn">
-            Withdraw
-          </button>
+          <!-- Withdraw Input -->
+          <form action="">
+            <input
+              type="text"
+              name=""
+              class="d-block px-3 mt-3 py-2 w-100 rounded"
+              id="withdraw"
+              placeholder="Withdraw Amount"
+            />
+            <button class="btn btn-danger mt-3" id="withdraw-btn">
+              Withdraw
+            </button>
+          </form>
         </div>
       </div>
     </div>
@@ -74,6 +85,7 @@
       crossorigin="anonymous"
     ></script>
     <!-- <script src="js/function.js"></script> -->
+    <script src="js/app.js"></script>
     <script src="js/deposit.js"></script>
     <script src="js/withdraw.js"></script>
 
