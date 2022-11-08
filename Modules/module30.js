@@ -61,4 +61,4 @@ const maxNum = (arr1, arr2) => {
 const test = [1, 2, 3];
 const test2 = [4, 5];
 
-console.log(maxNum(test, test2));
+// console.log(maxNum(test, test2));
