@@ -67,10 +67,11 @@ const { name, id, address } = { name: "Boka", id: 3, address: "kamrangichor" };
 // console.log(name, id);
 
 const [one, two, three] = [1, 2, 4];
+const chinmoy = [1, 2, 4];
 // console.log(three);
 
 const defFunc = (a, b, c = 7) => a + b + c;
-// console.log(defFunc(1, 2));
+// console.log(defFunc(...chinmoy));
 
 const nested = {
   name: "vehical",
@@ -88,4 +89,17 @@ const nested = {
   },
 };
 
-console.log(nested.type.second.two?.ex);
+// console.log(nested.type.second.two?.ex);
+
+let x = 3;
+let y = 4;
+
+x = x + y;
+y = x - y;
+x = x - y;
+// const test = (ab, bc)=> {
+//   ab = bc;
+
+// };
+
+console.log(x, y);
